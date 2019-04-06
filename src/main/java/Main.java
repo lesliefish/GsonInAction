@@ -2,6 +2,7 @@ import com.lesliefish.gson.t01firstapp.FirstApplicationTester;
 import com.lesliefish.gson.t02objectserialization.ObjectSerializationTester;
 import com.lesliefish.gson.t03databinding.DataBindingTester;
 import com.lesliefish.gson.t04objectdatabinding.ObjectDataBindingTester;
+import com.lesliefish.gson.t05treemodel.TreeModelTester;
 
 public class Main {
 
@@ -9,6 +10,7 @@ public class Main {
         //FirstApplicationTester.test();
         //ObjectSerializationTester.test();
         //DataBindingTester.test();
-        ObjectDataBindingTester.test();
+        //ObjectDataBindingTester.test();
+        TreeModelTester.test();
     }
 }
