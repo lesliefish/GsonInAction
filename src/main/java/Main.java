@@ -4,6 +4,7 @@ import com.lesliefish.gson.t03databinding.DataBindingTester;
 import com.lesliefish.gson.t04objectdatabinding.ObjectDataBindingTester;
 import com.lesliefish.gson.t05treemodel.TreeModelTester;
 import com.lesliefish.gson.t06streaming.JsonStreamingTester;
+import com.lesliefish.gson.t07serializationexamples.SerializationTester;
 
 public class Main {
 
@@ -13,6 +14,7 @@ public class Main {
         //DataBindingTester.test();
         //ObjectDataBindingTester.test();
         //TreeModelTester.test();
-        JsonStreamingTester.test();
+        //JsonStreamingTester.test();
+        SerializationTester.test();
     }
 }
