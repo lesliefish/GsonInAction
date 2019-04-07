@@ -1,5 +1,6 @@
 import com.lesliefish.gson.t08serializinginnerclasses.SerializingInnerClassesTester;
 import com.lesliefish.gson.t09customtypeadapters.CustomTypeAdaptersTester;
+import com.lesliefish.gson.t10serializenull.SerializeNullTester;
 
 public class Main {
 
@@ -12,6 +13,7 @@ public class Main {
         //JsonStreamingTester.test();
         //SerializationTester.test();
         //SerializingInnerClassesTester.test();
-        CustomTypeAdaptersTester.test();
+        //CustomTypeAdaptersTester.test();
+        SerializeNullTester.test();
     }
 }
