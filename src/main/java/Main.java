@@ -1,4 +1,5 @@
 import com.lesliefish.gson.t08serializinginnerclasses.SerializingInnerClassesTester;
+import com.lesliefish.gson.t09customtypeadapters.CustomTypeAdaptersTester;
 
 public class Main {
 
@@ -10,6 +11,7 @@ public class Main {
         //TreeModelTester.test();
         //JsonStreamingTester.test();
         //SerializationTester.test();
-        SerializingInnerClassesTester.test();
+        //SerializingInnerClassesTester.test();
+        CustomTypeAdaptersTester.test();
     }
 }
