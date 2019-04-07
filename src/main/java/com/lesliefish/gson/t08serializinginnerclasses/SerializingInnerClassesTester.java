@@ -1,6 +1,4 @@
-package com.lesliefish.gson.to8serializinginnerclasses;
-
-import com.google.gson.Gson;
+package com.lesliefish.gson.t08serializinginnerclasses;
 
 public class SerializingInnerClassesTester {
     public static void test() {

@@ -1,4 +1,4 @@
-package com.lesliefish.gson.to8serializinginnerclasses;
+package com.lesliefish.gson.t08serializinginnerclasses;
 
 import com.google.gson.Gson;
 
