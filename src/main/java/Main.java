@@ -2,6 +2,8 @@ import com.lesliefish.gson.t08serializinginnerclasses.SerializingInnerClassesTes
 import com.lesliefish.gson.t09customtypeadapters.CustomTypeAdaptersTester;
 import com.lesliefish.gson.t10serializenull.SerializeNullTester;
 import com.lesliefish.gson.t11versioningsupport.VersioningSupportTester;
+import com.lesliefish.gson.t12excludefields.ExcludeFieldsTester;
+import com.lesliefish.gson.t12excludefields.ExcludeFieldsWithModifiersTester;
 
 public class Main {
 
@@ -16,6 +18,7 @@ public class Main {
         //SerializingInnerClassesTester.test();
         //CustomTypeAdaptersTester.test();
         //SerializeNullTester.test();
-        VersioningSupportTester.test();
+        //VersioningSupportTester.test();
+        ExcludeFieldsTester.test();
     }
 }
